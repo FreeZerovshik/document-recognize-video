@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{46DEFED8-4692-4853-99E8-6209C91C14E9}</ProjectGuid>
+    <ProjectTypeGuids>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <RootNamespace>SmartLib</RootNamespace>
+    <AssemblyName>SmartLib</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <NoWin32Manifest>False</NoWin32Manifest>
+    <SignAssembly>True</SignAssembly>
+    <DelaySign>False</DelaySign>
+    <AssemblyOriginatorKeyMode>File</AssemblyOriginatorKeyMode>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <NoStdLib>False</NoStdLib>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <IntermediateOutputPath>obj\$(Configuration)\</IntermediateOutputPath>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <BaseAddress>4194304</BaseAddress>
+    <RegisterForComInterop>True</RegisterForComInterop>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <FileAlignment>4096</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseIntermediateOutputPath>obj\</BaseIntermediateOutputPath>
+    <StartAction>Project</StartAction>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <RegisterForComInterop>false</RegisterForComInterop>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DShowNET">
+      <HintPath>..\..\DShowNET\bin\Debug\DShowNET.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="csharp\csSmartIdEngine.cs" />
+    <Compile Include="csharp\csSmartIdEnginePINVOKE.cs" />
+    <Compile Include="csharp\Image.cs" />
+    <Compile Include="csharp\ImageField.cs" />
+    <Compile Include="csharp\ImageFieldCollection.cs" />
+    <Compile Include="csharp\ImageOrientation.cs" />
+    <Compile Include="csharp\MatchResult.cs" />
+    <Compile Include="csharp\MatchResultVector.cs" />
+    <Compile Include="csharp\OcrChar.cs" />
+    <Compile Include="csharp\OcrCharVariant.cs" />
+    <Compile Include="csharp\OcrCharVariantVector.cs" />
+    <Compile Include="csharp\OcrCharVector.cs" />
+    <Compile Include="csharp\OcrString.cs" />
+    <Compile Include="csharp\Point.cs" />
+    <Compile Include="csharp\Quadrangle.cs" />
+    <Compile Include="csharp\QuadrangleCollection.cs" />
+    <Compile Include="csharp\RecognitionEngine.cs" />
+    <Compile Include="csharp\RecognitionResult.cs" />
+    <Compile Include="csharp\RecognitionSession.cs" />
+    <Compile Include="csharp\Rectangle.cs" />
+    <Compile Include="csharp\ResultReporterInterface.cs" />
+    <Compile Include="csharp\SegmentationResult.cs" />
+    <Compile Include="csharp\SegmentationResultVector.cs" />
+    <Compile Include="csharp\SessionSettings.cs" />
+    <Compile Include="csharp\StringField.cs" />
+    <Compile Include="csharp\StringFieldCollection.cs" />
+    <Compile Include="csharp\StringVector.cs" />
+    <Compile Include="csharp\StringVector2d.cs" />
+    <Compile Include="csharp\Utf16CharVector.cs" />
+    <Compile Include="SmartLib.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="cSmartIdEngine\smartid_common.h" />
+    <None Include="cSmartIdEngine\smartid_engine.h" />
+    <None Include="cSmartIdEngine\smartid_result.h" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

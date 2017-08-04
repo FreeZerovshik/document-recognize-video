@@ -1,0 +1,21 @@
+{
+  "type": "smartid_bundle",
+  "engines": {
+    "passport": {
+      "type": "passport_engine",
+      "path": "passport_anywhere.zip",
+      "options": {        
+        "extractPhoto": "true",
+        "extractSignature": "true",
+        "extractTemplateImages": "false",
+        "extractFieldImages": "false",
+        "extractFieldImagesUsingTemplate": "false"},
+      "doctypes": [
+        "rus.passport.national"
+      ]
+    }
+  },
+  "common_options": {
+    
+  }
+}

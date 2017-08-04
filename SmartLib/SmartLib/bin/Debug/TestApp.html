@@ -1,0 +1,23 @@
+<!DOCTYPE>
+<html>
+   <head>
+          <title>TestApp webpage</title>
+   </head>
+   <body>
+       <OBJECT id="SmartLib" classid="clsid:4dd43ed4-0717-436c-b461-2e0bb619af72" codebase="SmartLib.cab"></OBJECT>  
+ 
+        <script type="text/javascript">
+            try {
+                var obj = document.SmartLib;
+                if (obj) {
+                    alert(obj.TestApp());
+                } else {
+                    alert("Object is not created!");
+                }
+            } catch (ex) {
+                alert("Some error happens, error message is: " + ex.Description);
+            }
+       
+        </script>
+   </body>
+</html>
