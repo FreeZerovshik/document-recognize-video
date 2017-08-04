@@ -1,0 +1,10 @@
+C:\Users\popchenko\Downloads\directshownet\DirectShow\DShowNET\bin\Debug\DShowNET.dll
+C:\Users\popchenko\Downloads\directshownet\DirectShow\DShowNET\bin\Debug\DShowNET.pdb
+C:\Users\popchenko\Downloads\directshownet\DirectShow\DShowNET\obj\Debug\DShowNET.csprojResolveAssemblyReference.cache
+C:\Users\popchenko\Downloads\directshownet\DirectShow\DShowNET\obj\Debug\DShowNET.dll
+C:\Users\popchenko\Downloads\directshownet\DirectShow\DShowNET\obj\Debug\DShowNET.pdb
+C:\Project\workspace\DllSmartIDReader\DShowNET\bin\Debug\DShowNET.dll
+C:\Project\workspace\DllSmartIDReader\DShowNET\bin\Debug\DShowNET.pdb
+C:\Project\workspace\DllSmartIDReader\DShowNET\obj\Debug\DShowNET.csprojResolveAssemblyReference.cache
+C:\Project\workspace\DllSmartIDReader\DShowNET\obj\Debug\DShowNET.dll
+C:\Project\workspace\DllSmartIDReader\DShowNET\obj\Debug\DShowNET.pdb
