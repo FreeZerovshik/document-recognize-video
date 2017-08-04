@@ -1,0 +1,18 @@
+Start recognize application
+--------------------------------
+Document type: rus.passport.national
+Match results:
+    Template Type = page3
+    Zone = {(21.6, 28.0), (569.5, 17.4), (577.0, 402.6), (29.1, 413.3)}
+String fields:
+    birthplace      [-] ПОС. ЦЕГДСМЫН ВЕРХНЕБУРЕИНСКОРО РАЙОНА ХАБАРОВСКОГО КРАЯ
+    gender          [+] МУЖ.
+    name            [+] МАТВЕЙ
+    number          [+] 407068
+    patronymic      [-] ВАЛЕРЬЕВИЧ
+    series          [+] 0801
+    surname         [+] ПОПЧЕНКО
+Image fields:
+    photo           [+] W: 240 H: 320
+Result terminal:    [-]
+End application!

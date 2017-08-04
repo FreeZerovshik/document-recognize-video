@@ -1,0 +1,11 @@
+C:\Project\workspace\DllSmartIDReader\MyTestVideo\MyTestVideo\obj\Debug\MyTestVideo.csprojResolveAssemblyReference.cache
+C:\Project\workspace\DllSmartIDReader\MyTestVideo\MyTestVideo\obj\Debug\MyTestVideo.Form1.resources
+C:\Project\workspace\DllSmartIDReader\MyTestVideo\MyTestVideo\obj\Debug\MyTestVideo.Properties.Resources.resources
+C:\Project\workspace\DllSmartIDReader\MyTestVideo\MyTestVideo\obj\Debug\MyTestVideo.csproj.GenerateResource.Cache
+C:\Project\workspace\DllSmartIDReader\MyTestVideo\MyTestVideo\bin\Debug\DShowNET.dll
+C:\Project\workspace\DllSmartIDReader\MyTestVideo\MyTestVideo\bin\Debug\DShowNET.pdb
+C:\Project\workspace\DllSmartIDReader\MyTestVideo\MyTestVideo\bin\Debug\VideoRecog.exe.config
+C:\Project\workspace\DllSmartIDReader\MyTestVideo\MyTestVideo\bin\Debug\VideoRecog.exe
+C:\Project\workspace\DllSmartIDReader\MyTestVideo\MyTestVideo\bin\Debug\VideoRecog.pdb
+C:\Project\workspace\DllSmartIDReader\MyTestVideo\MyTestVideo\obj\Debug\VideoRecog.exe
+C:\Project\workspace\DllSmartIDReader\MyTestVideo\MyTestVideo\obj\Debug\VideoRecog.pdb
